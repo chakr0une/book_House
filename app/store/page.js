@@ -1,12 +1,12 @@
 import { getAllBooks } from "../lib/fake-data";
 import BookList from "../component/books/BookList";
 
-const BookListePage = () => {
+const BookListPage = () => {
     const books = getAllBooks();
     console.log(books);
     return (
-        <BookList books = {books} />
-    )
+        <BookList books={books} />
+    );
 }
 
-export default BookListePage
+export default BookListPage;

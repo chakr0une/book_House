@@ -1,3 +1,8 @@
+'use client'
+
+import {useContext} from 'react';
+import { StoreContext } from '@/app/context';
+
 import { 
     HomeIcon, 
     UserGroupIcon, 
@@ -19,6 +24,7 @@ const links = [
 
 
   const NavLinks = () => {
+    const {cartData} = useContext(StoreContext);
     return(
       <>
       {
@@ -32,6 +38,10 @@ const links = [
             >
               <IconComponent className="w-6"/>
               <p className="hidden md:block">{link.name}</p>
+              <p className="hidden md:block">
+              {(link.name==='Cart' && cartData && cartData.length > 0) 
+                ? `${link.name}(${cartData.length})` : `${link.name}`}
+              </p>
             </Link>
           )
         })

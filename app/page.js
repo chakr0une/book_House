@@ -12,9 +12,9 @@ export default function Home() {
         alt="background Image"
         fill
         sizes="100vw"
-        style={{objectcFit: "cover"}}
+        style={{ objectFit: "cover" }}
       />
-      <div className=" p-2 flex flex-col justify-center items-center z-10 bg-purple-100 lg:w-2/5 h-1/4 rounded-md">
+      <div className="p-2 flex flex-col justify-center items-center z-10 bg-purple-100 lg:w-2/5 h-1/4 rounded-md">
         <div className="flex pb-5 mb-5 text-5xl text-purple-800">
           <p>Welcome to book house</p>
         </div>
@@ -22,15 +22,12 @@ export default function Home() {
         <div>
           <Link
             href="/store"
-            className="bg-purple-700 text-white hover:bg-purple-900 p-3 rounded-sm text-lg text mr-2"
+            className="bg-purple-700 text-white hover:bg-purple-900 p-3 rounded-sm text-lg mr-2"
           >
             TAKE ME TO THE STORE
           </Link>
         </div>
       </div>
-
     </div>
-
-    
-  )
+  );
 }

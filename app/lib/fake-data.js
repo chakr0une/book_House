@@ -25,8 +25,8 @@ const users = [
       "pages": 256,
       "isRented": false,
       "stock": 34,
-      "rentPrice": 24,
-      "sellPrice": 230,
+      "rentPrice": 2.4,
+      "sellPrice": 23,
       "sold": 12,
       "ISBN":	"1-86092-049-7"
     },
@@ -40,8 +40,8 @@ const users = [
       "pages": 198,
       "isRented": true,
       "stock": 7,
-      "rentPrice": 15,
-      "sellPrice": 120,
+      "rentPrice": 1,
+      "sellPrice": 12,
       "sold": 10,
       "ISBN": "1-86092-050-3",
       "renterIds": ["d0cdfaa6-beee-4dd9-bfe6-cbcfeceffa"]
@@ -56,8 +56,8 @@ const users = [
       "pages": 128,
       "isRented": false,
       "stock": 12,
-      "rentPrice": 10,
-      "sellPrice": 100,
+      "rentPrice": 1,
+      "sellPrice": 10,
       "sold": 15,
       "ISBN": "1-86092-051-X"
     },
@@ -71,8 +71,8 @@ const users = [
       "pages": 280,
       "isRented": false,
       "stock": 20,
-      "rentPrice": 15,
-      "sellPrice": 120,
+      "rentPrice": 1.5,
+      "sellPrice": 12,
       "sold": 10,
       "ISBN": "1-86092-052-8"
     },
@@ -86,8 +86,8 @@ const users = [
       "pages": 928,
       "isRented": false,
       "stock": 15,
-      "rentPrice": 20,
-      "sellPrice": 250,
+      "rentPrice": 14,
+      "sellPrice": 35,
       "sold": 10,
       "ISBN": "1-86092-053-6"
     },
@@ -102,7 +102,7 @@ const users = [
       "isRented": true,
       "stock": 10,
       "rentPrice": 15,
-      "sellPrice": 120,
+      "sellPrice": 38,
       "sold": 10,
       "ISBN": "1-86092-054-4",
       "renterIds": ["d0cdfaa6-beee-4dd9-bfe6-cbcfeceffa", "3958dc9e-712f-4377-85e9-fec4b6a6442a"]
@@ -117,8 +117,8 @@ const users = [
       "pages": 280,
       "isRented": false,
       "stock": 0,
-      "rentPrice": 15,
-      "sellPrice": 120,
+      "rentPrice": 3,
+      "sellPrice": 22,
       "sold": 1,
       "ISBN": "1-86092-055-2"
     },
@@ -132,8 +132,8 @@ const users = [
       "pages": 320,
       "isRented": false,
       "stock": 10,
-      "rentPrice": 15,
-      "sellPrice": 120,
+      "rentPrice": 4,
+      "sellPrice": 32,
       "sold": 1,
       "ISBN": "1-86092-056-0"
     }  
