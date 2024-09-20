@@ -56,9 +56,11 @@ const Payment = () => {
           </a>
         </div>
       </form>
+       {/*
       <p className="text-center text-gray-500 text-xs">
         Hey, Do Not Enter the Real Card Details.
       </p>
+      */}
     </div>
   )
 }

@@ -3,6 +3,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Inter } from 'next/font/google';
 import localFont from "next/font/local";
+import { dbConnect } from "@/services/mongo";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -20,10 +21,11 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "Book-House",
-  description: "An Online Bookstore to Sell and Buy Used Books",
+  description: "An Online Bookstore to Buy / Rent and Sell Used Books",
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
+  await dbConnect();
   return (
     <html lang="en">
       <body className={inter.className}>

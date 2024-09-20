@@ -2,8 +2,8 @@ import Sidebar from "../component/sidebar/SideBar"
 import StoreProvider from "../provider"
 
 export const metadata = {
-  title: 'book-house - Buy or Sell Books',
-  description: 'An Online Bookstore to Sell and Buy Used Books',
+  title: "Book-House",
+  description: "An Online Bookstore to Buy / Rent and Sell Used Books",
 }
 
 export default function BookStoreLayout({ children }) {
